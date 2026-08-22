@@ -10,3 +10,6 @@ class Block:
         self.BlockHeader = BlockHeader
         self.Txs = Txs
         self.Txcount = len(self.Txs)
+        
+
+    

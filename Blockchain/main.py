@@ -1,5 +1,5 @@
 import sys
-sys.path.append("C:/Users/Windows/Desktop/Blockchain Implementation")
+sys.path.append("/Blockchain Full Stack")
 
 from Blockchain.Backend.Core.blockchain import Blockchain
 
@@ -7,7 +7,6 @@ if __name__ == "__main__":
     print("Initializing Blockchain...")
     blockchain = Blockchain()
 
-    blockchain.add_next_block()
     blockchain.add_next_block()
     blockchain.add_next_block()
 
