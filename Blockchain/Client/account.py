@@ -1,7 +1,9 @@
 import secrets
 import sys
+from pathlib import Path
 
-sys.path.append("/projects/Block Chain/Block-Chain-Practise")
+# Add the directory containing the Blockchain package to Python's import path.
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
 from Blockchain.Backend.Core.EllepticCurve.EllepticCurve import Sha256Point
 from Blockchain.Backend.Util.util import decode_base58, hash160_bytes, hash256_bytes
